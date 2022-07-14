@@ -1,73 +1,13 @@
 @import 'reset.css';
 @import 'variables.css';
-@import 'status-bar.css';
+
+/* Components */
+@import 'components/status-bar.css';
+
+/* Screens */
+@import 'screens/login.css';
 
 body {
-  /* display: flex; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  /* background-color: var(--yellow); */
-}
-
-.welcome-header {
-  margin: 90px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  text-align: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  width: 70%;
-  color: rgb(97, 96, 96);
-  line-height: 1.2;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 30px;
-}
-
-#login-form input {
-  padding: 20px 10px;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-#login-form input::placeholder {
-  color: rgba(139, 139, 139, 0.4);
-}
-
-#login-form input:focus {
-  border-color: rgba(157, 155, 155, 0.5);
-}
-
-#login-form input:not([type='submit']) {
-  border-bottom: 1px solid rgba(157, 155, 155, 0.3);
-  /* transition: all .3s ease-in-out; */
-}
-
-#login-form input[type='submit'] {
-  background-color: var(--yellow);
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-#login-form input[type='submit']:hover {
-  opacity: 0.6;
-}
-
-#login-form a {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 13px;
 }
