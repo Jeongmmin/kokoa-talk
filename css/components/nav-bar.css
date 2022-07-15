@@ -1,0 +1,14 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--nav-color);
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(215, 214, 214, 0.5)
+}
+
+.nav__list {
+  display: flex;
+  justify-content:space-between;
+}
