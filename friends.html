@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to kokkoa Talk</title>
+    <title>Friends - kokkoa Talk</title>
     <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/493cc16663.js"
@@ -28,19 +28,14 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KoKoaTalk Clone</h1>
-      <p class="welcome-header__text">
-        If you have a KoKoaTalk Account,<br> log in with your email or phone number.
-      </p>
-    </header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-regular fa-comment fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+        <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+      </ul>
+    </nav>
 
-    <form action="friends.html" method="get" id="login-form">
-      <input type="text" placeholder="Enter or phone number" />
-      <input name="username" type="password" placeholder="Password" />
-      <input name="password" type="submit" value="Log In" />
-      <!-- <input type="submit" value="Sign Up" /> -->
-      <a href="#">Find KoKoaTalk Account or Password</a>
-    </form>
   </body>
 </html>
