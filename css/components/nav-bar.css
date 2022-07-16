@@ -36,8 +36,8 @@
   display: flex;
   justify-content:center;
   align-items:center;
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   position: absolute;
   transform: translate(25px, 0px);
