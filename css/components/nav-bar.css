@@ -5,7 +5,7 @@
   background-color: var(--nav-color);
   padding: 20px 40px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(215, 214, 214, 0.5);
+  border-top: var(--main-border);
 }
 
 .nav__list {
@@ -13,32 +13,29 @@
   justify-content: space-between;
 }
 
-.nav__link {
+.nav__relative {
   position: relative;
 }
 
 .nav__notification-number {
-  /* background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  color: white;
-  font-weight: 600; */
   position: absolute;
   transform: translate(15px, -10px);
 }
 
-.nav__notification-dot {
+.nav__notification-dot-big {
   background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 8px;
   height: 8px;
   border-radius: 50%;
   position: absolute;
-  transform: translate(25px, 0px);
+  transform: translate(25px, -5px);
+}
+
+.nav__notification-dot-sm {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-5px, -8px);
 }
