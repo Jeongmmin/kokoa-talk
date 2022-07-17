@@ -68,3 +68,16 @@
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
+
+.icon-outer {
+  position: relative;
+  color:tomato;
+  font-weight: 600;
+}
+
+.icon-inner {
+  position: absolute;
+  left: 5.5px;
+  top: 6px;
+  font-size: 12px;
+}
