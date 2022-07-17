@@ -5,12 +5,12 @@
   background-color: var(--nav-color);
   padding: 20px 40px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(215, 214, 214, 0.5)
+  border-top: 1px solid rgba(215, 214, 214, 0.5);
 }
 
 .nav__list {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .nav__link {
@@ -20,8 +20,8 @@
 .nav__notification-number {
   background-color: tomato;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -34,8 +34,8 @@
 .nav__notification-dot {
   background-color: tomato;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   width: 8px;
   height: 8px;
   border-radius: 50%;
