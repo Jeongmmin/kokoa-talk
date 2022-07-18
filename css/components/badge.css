@@ -1,5 +1,5 @@
 .badge {
-  background-color: tomato;
+  background-color: rgb(255, 148, 198);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,5 +8,4 @@
   border-radius: 50%;
   color: white;
   font-weight: 600;
-  /* transform: translate(15px, -10px); */
 }

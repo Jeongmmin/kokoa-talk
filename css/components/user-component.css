@@ -71,7 +71,7 @@
 
 .icon-outer {
   position: relative;
-  color:tomato;
+  color:var(--pink);
   font-weight: 600;
 }
 

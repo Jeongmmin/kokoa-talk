@@ -21,7 +21,7 @@
 }
 
 .screen-header__icons i:hover {
-  color: palevioletred;
+  color: var(--deep-purple);
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -45,7 +45,7 @@
     transform: none;
   }
   50% {
-    color: palevioletred;
+    color: var(--deep-purple);
     transform: scale(1.2);
   }
   100% {
