@@ -52,10 +52,10 @@
 
 
 .message-row img {
-  width: 60px;
-  height: 60px;
-  border-radius: 20px;
-  margin-right: 12px;
+  width: 220px;
+  height: 170px;
+  border-radius: 8px;
+  margin-right: 8px;
 }
 
 .message__author {
@@ -103,8 +103,13 @@
 
 .message-row--own {
   justify-content: flex-end;
-  /* animation: fadeIn 0.3s linear forwards; */
-  /* animation-delay: 2s; */
+}
+
+.message-row--own img {
+  width: 220px;
+  height: 170px;
+  border-radius: 8px;
+  margin-left: 8px;
 }
 
 .message-row--own .message__bubble {
