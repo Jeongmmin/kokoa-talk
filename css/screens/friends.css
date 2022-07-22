@@ -50,7 +50,7 @@
 }
 
 #splash-screen {
-  background-color: var(--purple);
+  background-color: #160A20;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -58,8 +58,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
-  animation: hideSplashScreen 0.3s ease-in-out forwards;
+
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
   animation-delay: 0.5s;
   z-index: 50;
+}
+
+#splash-screen img {
+  width: 150px;
+}
+
+@keyframes moveComment {
+  0% {
+    transform: rotateZ(0deg) translateY(-100px);
+  }
+  50% {
+    transform: rotateZ(10deg) translateY(-100px);
+  }
+  100% {
+    transform: rotateZ(0deg) translateY(-100px);
+  }
+}
+
+#splash-screen i {
+  color: white;
+  position: absolute;
+  font-size: 60px;
+  transform: translateY(-100px);
+  animation: moveComment 1s ease-in-out infinite;
 }
