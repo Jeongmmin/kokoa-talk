@@ -81,3 +81,10 @@
   top: 6px;
   font-size: 12px;
 }
+
+@media screen and (max-width: 420px) {
+  .user-component__subtitle {
+    width: 180px;
+    line-height:1.3;
+  }
+}
