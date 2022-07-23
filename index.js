@@ -2,9 +2,6 @@ const screenHeader = document.querySelector('.screen-header__icons');
 const playBtn = screenHeader.querySelector('.fa-music');
 const music = new Audio('music.mp3');
 
-console.log(screenHeader);
-console.log(playBtn);
-
 let play = false;
 
 playBtn.addEventListener('click', () => {
