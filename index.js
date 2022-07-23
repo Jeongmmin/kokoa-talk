@@ -1,14 +1,28 @@
-const colorInput = document.getElementById('color');
+const screenHeader = document.querySelector('.screen-header__icons');
+const playBtn = screenHeader.querySelector('.fa-music');
+const music = new Audio('music.mp3');
 
-const text = document.querySelector('.text');
+console.log(screenHeader);
+console.log(playBtn);
 
-const btn = document.querySelector('.btn');
+let play = false;
 
-// console.log(colorInput.value);
+playBtn.addEventListener('click', () => {
+  play = !play;
+  if (play === false) {
+    pauseSound(music);
+    playBtn.classList.remove('play-music-now');
+  } else {
+    playSound(music);
+    playBtn.classList.add('play-music-now');
+  }
+});
 
-function chooseColor(e) {
-  e.preventDefault();
-  text.innerHTML = colorInput.value;
+function playSound(sound) {
+  sound.play();
+  sound.currentTime = 0;
 }
 
-btn.addEventListener('click', chooseColor);
+function pauseSound(sound) {
+  sound.pause();
+}

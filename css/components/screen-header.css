@@ -54,6 +54,11 @@
   }
 }
 
-.screen-header__icons .fa-music:hover {
+/* .screen-header__icons .fa-music:hover {
+  animation: scaleMusic .5s ease-in-out infinite;
+} */
+
+.play-music-now {
   animation: scaleMusic .5s ease-in-out infinite;
 }
+
